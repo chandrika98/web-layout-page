@@ -1,0 +1,56 @@
+
+body{
+    
+    background-image:url('../images/Black-white-flowers-pictures-wallpaper.jpg') ;
+    background-size: cover;
+    background-attachment:fixed;
+    text-align: left;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+.navigation{
+    display: flex;
+   }
+  #header h1,a{ 
+   color: #fff;
+   line-height: 1;
+   display: inline-block;
+   text-decoration: none;
+   font-family: "Poppins", sans-serif;
+}
+#header h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: "Raleway", sans-serif;
+}
+
+.ch1{
+    flex-basis: 50%;
+    line-height: 2;
+    padding-top: 150px;
+}
+.ch1 h1,p{
+    
+    color:white;
+     font-size: 48px;
+     line-height: 1;
+    font-weight: 700;
+   }
+   .ch2{
+    flex-basis: 50%;
+    
+    
+}
+.ch2 img{
+    
+    height:400px;
+        width:350px;
+       padding-left: 90px;
+        padding-top: 5px;
+}
