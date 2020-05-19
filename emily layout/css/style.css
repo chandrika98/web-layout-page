@@ -11,6 +11,20 @@ body{
     margin: auto;
     
 }
+.spring{
+    background-color:black ;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+.logo{
+    font-size: 40px;
+    padding-top: 20px;
+    color: white;
+}
+.side{
+    text-align: right;
+}
 .navigation{
     display: flex;
    }
@@ -53,4 +67,54 @@ body{
         width:350px;
        padding-left: 90px;
         padding-top: 5px;
+}
+.about-parent1 img{
+
+        height:400px;
+        width:300px;
+    
+}
+.about-parent1{
+    display: flex;
+}
+.about-child1{
+ flex-basis:20% ;
+}
+.about-child2{
+    flex-basis: 80%;
+    padding-left: 20px;
+}
+.detail{
+display: flex;
+font-family: "Open Sans", sans-serif;
+font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+}
+.detail1{
+    flex-basis:50% ;
+}
+.detail2{
+    flex-basis: 50%;
+}
+.about-parent1 p{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic!important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+.about-child2 h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+    font-family: "Raleway", sans-serif;
+    padding:20px 20px;
+}
+ ul i{
+    font-size: 20px;
+    padding-right: 2px;
+    color: #18d26e;
 }
