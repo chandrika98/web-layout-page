@@ -12,10 +12,10 @@ body{
     
 }
 .spring{
-    background-color:black ;
+    background-color:black;
     width: 1000px;
     margin: 0 auto;
-    padding: 10px 40px;
+    padding: 5px 40px;
 }
 .logo{
     font-size: 40px;
@@ -63,10 +63,10 @@ body{
 }
 .ch2 img{
     
-    height:400px;
-        width:350px;
-       padding-left: 90px;
-        padding-top: 5px;
+    height:500px;
+        width:700px;
+       padding-left: 10px;
+        
 }
 .about-parent1 img{
 
@@ -111,10 +111,172 @@ font-size: 1rem;
     font-size: 26px;
     color: #18d26e;
     font-family: "Raleway", sans-serif;
-    padding:20px 20px;
+    padding:10px 20px;
 }
  ul i{
     font-size: 20px;
     padding-right: 2px;
     color: #18d26e;
+}
+.icon-parent{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.icon-child1{
+    flex-basis: 25%;
+}
+.icon-child2{
+    flex-basis: 25%;
+}
+.icon-child3{
+    flex-basis: 25%;
+}
+
+.card-body p{
+    font-size: 20px;
+    
+}
+
+#icon img{
+    height:30px;
+    width:40px;
+    
+}
+.container1{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+   
+    width: 1080px;
+   
+    margin-right: 104.500px;
+   
+    margin-left: 104.500px;
+    height:880px;   
+}
+ .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.section-title p {
+    
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.title1 h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.title1 h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.title1 p {
+    
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.resume-parent{
+     display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+    line-height:40px ;
+}
+.resume-parent h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+ .robo h4::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #18d26e;
+    border: 2px solid #18d26e;
+}
+.resume-parent h4{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #18d26e;
+    margin-bottom: 10px;
+}
+.resume-parent ul{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+.resume-parent h5{
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+}
+.resume-child1{
+    flex-basis: 50%;
+     max-width: 50%;
+     
+}
+.resume-child2{
+    flex-basis: 50%;
+    max-width: 50%;
+  
+}
+.resume-parent{
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+.resume-parent p{
+       font-size: 16px;
+       font-family: "Open Sans", sans-serif;
+       color: #fff;
+       line-height: 30px;
 }
