@@ -427,3 +427,371 @@ font-size: 1rem;
     color: #fff;
     font-family: "Open Sans", sans-serif;
 }
+.pa-re {
+    display: flex;
+    flex-wrap: wrap;
+}
+.s1{
+    
+    flex: 30%;
+    max-width: 50%;
+    
+    background: rgba(204, 204, 204, 0.1);
+    margin-bottom:20px ;
+    margin-right:20px ;
+    
+    color: #444444;
+    
+    
+    background: rgba(255, 255, 255, 0.08);
+    width: 485px;
+    height:66px;
+    padding: 20px 20px 20px;
+}
+.s2{
+    flex: 30%;
+    max-width: 50%;
+    
+    background: rgba(204, 204, 204, 0.1);
+    
+   
+    color: #444444;
+    
+    background: rgba(255, 255, 255, 0.08);
+    width: 485px;
+    height:66px;
+    padding: 20px 20px 20px;
+    
+}
+.s3{
+    flex: 30%;
+    max-width: 50%;
+    
+    background: rgba(204, 204, 204, 0.1); 
+    margin-right:20px ;
+    
+    color: #444444;
+    
+    background: rgba(255, 255, 255, 0.08);
+    width: 485px;
+    height:66px;
+    padding: 20px 20px 20px;
+    
+}
+.s4{
+    flex: 30%;
+    max-width: 50%;
+    
+    background: rgba(204, 204, 204, 0.1);
+    
+   
+    color: #444444;
+    
+    
+    background: rgba(255, 255, 255, 0.08);
+    width: 485px;
+    height:66px;
+    padding: 20px 20px 20px; 
+}
+.pa-re h3{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: 10px 0 8px 68px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.2;
+
+}
+.pa-re p{
+    padding: 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+    font-family: "Open Sans", sans-serif;
+}
+.php-email-form {
+    background: rgba(255, 255, 255, 0.08);
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.contact .php-email-form {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.08);
+}
+.contact .php-email-form input {
+    padding: 20px 15px;
+}
+.contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+   
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.form-row {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.col-md-6 {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+    
+}
+ .form-row {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+
+.contact .php-email-form .sent-message {
+    display: none;
+    
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+input {
+    
+    text-rendering: auto;
+    color: -internal-light-dark-color(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: -internal-light-dark-color(white, black);
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+ .ro {
+   
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-3 {
+    
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+ .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    height:75px;
+    width:187px;
+    
+}
+ .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+    
+    text-align: center;
+}
+ .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.counts-container {
+    background: rgba(0, 0, 0, 0.9);
+    
+    padding: 30px;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.row {
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-6 {
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+ .skills .progress {
+    height: 50px;
+    display: block;
+    background: none;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    line-height: 0;
+    font-size: .75rem;
+    border-radius: .25rem;
+}
+.skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.val {
+    float: right;
+    font-style: normal;
+}
+.skills .progress-bar-wrap {
+    background: rgba(255, 255, 255, 0.15);
+}
+ .progress-bar {
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+    transition: .9s;
+    background-color: #18d26e;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+}
+.skills .progress {
+    height: 50px;
+    display: block;
+    background: none;
+}
+.skills container{
+    
+    padding-right: 30px;
+    width: 1080px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-left: 104.500;
+    margin-left: 104px;
+    margin-right: 104px;
+
+}
+.progress{
+    width: 525px;
+}
+section .container {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+}
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
+.row {
+    
+    display: flex;
+   
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-3 {
+   
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+}
+.ri-store-line:before {
+    content: "\f13f";
+}
+.interests .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+}
+.interests .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
